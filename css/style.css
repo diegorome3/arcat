@@ -1,0 +1,298 @@
+
+/*Modificaciones Index*/
+
+
+
+* {
+    margin: 200;
+    padding: 200;
+}
+
+
+/* .flexind{
+    display: flex;
+    justify-content: space-between;
+   margin-right: 22rem;
+}*/
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+   grid-template-areas:"text img";
+}
+
+.textind{
+    grid-area: text;
+}
+
+.img{
+    grid-area: img;
+}
+
+.textind{
+    margin-left: 20rem;
+    margin-top: 3rem;
+    padding-top: 3rem;
+
+}
+
+.arcatind{
+    font-size: 70px;
+}
+
+.arcat{
+    text-align: left;
+}
+
+
+ul {color: rgb(145, 49, 49);}
+
+body {
+    background-color: bisque;
+    background-image: url('../media/fondoar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ 
+li {
+    display: inline-block;
+    width: 24%;
+    position: relative;
+    font-size: 18px
+}
+
+.cambioTexto {
+    text-decoration: underline;
+    text-decoration-style: double;
+    text-transform: lowercase;
+
+} 
+
+h1 { 
+    
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 3rem;
+
+}
+
+h2 {font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+
+ul {
+    font-family:'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+
+}
+
+img  { width: 400px;
+    background-position: center ;
+    padding-top: 3rem;
+   
+}
+
+footer {
+    font-family:'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+
+/*Modificaciones Nosotros*/
+
+/*.flexnos {
+    display: flex;
+}*/
+
+.arcatn{
+    text-align: left;
+}
+
+.gridnos{
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+   grid-template-areas:"gridnos textn";
+}
+
+.nosotit{
+    text-decoration: none;
+    padding: 20px;
+   text-align: center;
+   font-size: 40px;
+   background-color: coral;
+   color: aliceblue;
+}
+
+.textn{
+    margin-top: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: medium;
+}
+
+
+
+/*Modificaciones Tienda*/
+
+.gridtiend{
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+   grid-template-areas:"text img";
+}
+
+.arcatt{
+    text-align: left;
+}
+
+.tiend1{
+     text-decoration: none;
+    padding: 20px;
+   text-align: center;
+   font-size: 40px;
+   background-color: coral;
+   color: aliceblue;
+}
+
+.texttienda{
+    font-family:'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+}
+
+
+/*Modificaciones Galeria*/
+
+.gridgale{
+    display: grid;
+    grid-template-columns: repeat(0,fr);
+   grid-template-areas:"text img";
+}
+
+.arcatg{
+    text-align: left;
+}
+
+.galetext{
+    text-decoration: none;
+    padding: 20px;
+   text-align: center;
+   font-size: 40px;
+   background-color: coral;
+   color: aliceblue;
+}
+
+
+
+/*Modificaciones Contacto*/
+
+.gridcont{
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+   grid-template-areas:"text img";
+}
+
+.arcatc{
+    text-align: left;
+}
+
+.flexcont{
+    display: flex; 
+}
+
+.contacto{
+    text-decoration: none;
+    padding: 20px;
+   text-align: center;
+   font-size: 40px;
+   background-color: coral;
+   color: aliceblue;   
+}
+
+
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 768px) {
+    
+    /*Index*/
+    
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+        justify-content: center;
+       grid-template-areas:"text" "img";
+    }
+
+    .textind{
+        margin-top: -7rem;
+    }
+
+    .tiendt{
+        justify-content: center;
+        margin-right: 17rem;
+    }
+
+    .img{
+        width: 50%;
+        margin-left: 12rem ;
+    }
+
+    .arcatind{
+        justify-content: center;
+        margin-right: 17rem;
+    }
+
+    /*Nosotros*/
+
+    .gridnos{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+       grid-template-areas:"gridnos ";
+    }
+
+    .textn{
+        margin-top:-5rem ;
+    }
+
+
+    /*Tienda*/
+
+    .gridtiend{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+       grid-template-areas:"text" "img";
+    }
+
+
+    /*Galeria*/
+
+    .gridgale{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+       grid-template-areas:"text" "img";
+    }
+
+    /*Contacto*/
+
+    .gridcont{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+       grid-template-areas:"text" "img";
+    }
+
+    .gridcont{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {}
+
