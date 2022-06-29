@@ -25,6 +25,7 @@
     grid-area: text;
 }
 
+
 .img{
     grid-area: img;
 }
@@ -95,6 +96,15 @@ img  { width: 400px;
     background-position: center ;
     padding-top: 3rem;
    
+}
+
+
+.face{
+    width: 5%;
+}
+
+.insta{
+    width: 5%;
 }
 
 footer {
@@ -243,6 +253,14 @@ footer {
     .img{
         width: 50%;
         margin-left: 12rem ;
+    }
+
+    .face{
+        width: 10%;
+    }
+
+    .insta{
+        width: 10%;
     }
 
     .arcatind{
