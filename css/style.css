@@ -179,11 +179,11 @@ footer {
 
 /*Modificaciones Galeria*/
 
-.gridgale{
+/*.gridgale{
     display: grid;
     grid-template-columns: repeat(0,fr);
    grid-template-areas:"text img";
-}
+}*/
 
 .arcatg{
     text-align: left;
@@ -225,6 +225,79 @@ footer {
    color: aliceblue;   
 }
 
+
+/*Animaciones , Transicion o Transformacion */
+
+/*index*/
+
+
+/*Galeria*/
+
+.foto1{
+    transition: height 2s;
+    transition: height 2s, width 1s;
+    transition:all 2s
+}
+
+.foto1:hover{
+    height: auto;
+    width: 500px;
+}
+
+.foto2{
+    transition: height 2s;
+    transition: height 2s, width 1s;
+    transition:all 2s
+}
+
+.foto2:hover{
+    height: auto;
+    width: 500px;
+}
+
+.foto3{
+    transition: height 2s;
+    transition: height 2s, width 1s;
+    transition:all 2s
+}
+
+.foto3:hover{
+    height: auto;
+    width: 500px;
+}
+
+.foto4{
+    transition: height 2s;
+    transition: height 2s, width 1s;
+    transition:all 2s
+}
+
+.foto4:hover{
+    height: auto;
+    width: 500px;
+}
+
+.foto5{
+    transition: height 2s;
+    transition: height 2s, width 1s;
+    transition:all 2s
+}
+
+.foto5:hover{
+    height: auto;
+    width: 500px;
+}
+
+.foto6{
+    transition: height 2s;
+    transition: height 2s, width 1s;
+    transition:all 2s
+}
+
+.foto6:hover{
+    height: auto;
+    width: 500px;
+}
 
 
 
