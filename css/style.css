@@ -8,6 +8,17 @@
     padding: 200;
 }
 
+.nombre{
+    width: 45%;
+}
+
+.navbar-nav{
+    font-size: 25px;
+}
+
+.nav-link{
+    color: aliceblue;
+}
 
 /* .flexind{
     display: flex;
@@ -122,6 +133,11 @@ footer {
     display: flex;
 }*/
 
+.video{
+    display: flex;
+    justify-content: center;
+}
+
 .arcatn{
     text-align: left;
 }
@@ -152,11 +168,11 @@ footer {
 
 /*Modificaciones Tienda*/
 
-.gridtiend{
+/*.gridtiend{
     display: grid;
     grid-template-columns: repeat(2,fr);
    grid-template-areas:"text img";
-}
+}*/
 
 .arcatt{
     text-align: left;
@@ -201,6 +217,8 @@ footer {
 
 
 /*Modificaciones Contacto*/
+
+
 
 .gridcont{
     display: grid;
@@ -351,6 +369,11 @@ footer {
 
     .textn{
         margin-top:-5rem ;
+    }
+
+    .video{
+        width: 100%;
+        justify-content: center;
     }
 
 
