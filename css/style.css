@@ -8,8 +8,9 @@
     padding: 200;
 }
 
-.nombre{
-    width: 45%;
+.nombrelogo{
+    width: 35%;
+    margin-top: -3rem;
 }
 
 .navbar-nav{
@@ -106,6 +107,7 @@ ul {
 img  { width: 400px;
     background-position: center ;
     padding-top: 3rem;
+    
    
 }
 
@@ -134,8 +136,7 @@ footer {
 }*/
 
 .video{
-    display: flex;
-    justify-content: center;
+    width: 50%;
 }
 
 .arcatn{
@@ -248,6 +249,27 @@ footer {
 
 /*index*/
 
+.nombrelogo{
+    transition: all 0.2s ease-in-out;
+}
+
+.nombrelogo:hover{
+    transform: scale(1.1);
+}
+
+.nav-link{
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover{
+    transform: scale(1.1);
+}
+
+.img{
+  
+}
+
+
 
 /*Galeria*/
 
@@ -324,7 +346,7 @@ footer {
 @media screen and (max-width: 768px) {
     
     /*Index*/
-    
+
     .grid{
         display: grid;
         grid-template-columns: repeat(1,fr);
