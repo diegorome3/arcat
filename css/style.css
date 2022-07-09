@@ -39,7 +39,7 @@
 
 
 .img{
-    grid-area: img;
+    width: 30%;
 }
 
 .textind{
@@ -265,10 +265,6 @@ footer {
     transform: scale(1.1);
 }
 
-.img{
-  
-}
-
 
 
 /*Galeria*/
@@ -347,6 +343,11 @@ footer {
     
     /*Index*/
 
+    .nombrelogo{
+        width: 200px;
+        margin-top: -3rem;
+    }
+
     .grid{
         display: grid;
         grid-template-columns: repeat(1,fr);
@@ -359,13 +360,12 @@ footer {
     }
 
     .tiendt{
-        justify-content: center;
-        margin-right: 17rem;
+        
+        text-align: center;
     }
 
     .img{
-        width: 50%;
-        margin-left: 12rem ;
+        width: 100%;
     }
 
     .face{
@@ -378,10 +378,14 @@ footer {
 
     .arcatind{
         justify-content: center;
-        margin-right: 17rem;
     }
 
+
     /*Nosotros*/
+
+    .lognosot{
+        width:100% ;
+    }
 
     .gridnos{
         display: grid;
@@ -390,7 +394,7 @@ footer {
     }
 
     .textn{
-        margin-top:-5rem ;
+        margin-top:-4rem ;
     }
 
     .video{

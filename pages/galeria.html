@@ -39,17 +39,33 @@
         <div>
             <h1 class="galetext"> Galeria </h1>
            
-       <section class="gridgale">  
-
-        <img class="foto1" src="../media/juegos1.jpg" alt="juegos1">
-        <img class="foto2" src="../media/juegos5.png" alt="juegos5">
-        <img class="foto3" src="../media/juegos3.jpg" alt="juegos3">
-        <img class="foto4" src="../media/juegos4.jpg" alt="juegos4">
-        <img class="foto5" src="../media/juegos7.png" alt="juegos7">
-        <img class="foto6" src="../media/juegos6.png" alt="juegos6">
-      
+       <section>  
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../media/mariobros.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../media/fot1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="../media/juegos1.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-    
        </section>
 
        
