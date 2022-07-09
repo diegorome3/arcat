@@ -260,6 +260,38 @@ footer {
 
 /*index*/
 
+.img{
+    animation: movimiento 2.5s linear infinite;
+}
+
+.triangulo{
+    border-radius: 3%;
+    background: rgb(255, 253, 253);
+    opacity: .3;
+
+    position: absolute;
+    bottom: -150;
+    left: 5%;
+
+    animation: triangulos 3s linear infinite;
+}
+
+.triangulo:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.triangulo:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
 .nombrelogo{
     transition: all 0.2s ease-in-out;
 }
@@ -436,7 +468,7 @@ footer {
        grid-template-areas:"text" "img";
     }
 
-
+  
     /*Galeria*/
 
     .gridgale{
@@ -461,3 +493,36 @@ footer {
 
 @media screen and (min-width: 1200px) {}
 
+
+/*keyframes*/
+
+@keyframes triangulos{
+    0%{
+        bottom:0;
+        opacity:0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+
+
+@keyframes movimiento{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
