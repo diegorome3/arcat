@@ -1,0 +1,522 @@
+/*Animaciones , Transicion o Transformacion */
+/*index*/
+.img {
+  -webkit-animation: movimiento 2.5s linear infinite;
+          animation: movimiento 2.5s linear infinite;
+}
+
+.triangulo {
+  border-radius: 3%;
+  background: rgb(255, 253, 253);
+  opacity: 0.3;
+  position: absolute;
+  bottom: -150;
+  left: 5%;
+  -webkit-animation: triangulos 3s linear infinite;
+          animation: triangulos 3s linear infinite;
+}
+
+.triangulo:nth-child(1) {
+  width: 80px;
+  height: 80px;
+  left: 5%;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+.triangulo:nth-child(2) {
+  width: 100px;
+  height: 100px;
+  left: 35%;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+.nombrelogo {
+  transition: all 0.2s ease-in-out;
+}
+
+.nombrelogo:hover {
+  transform: scale(1.1);
+}
+
+.nav-link {
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+/*Galeria*/
+.gallery-item {
+  transition: all 0.2s ease-in-out;
+}
+
+.gallery-item:hover {
+  transform: scale(1.1);
+}
+
+.foto1 {
+  transition: height 2s;
+  transition: height 2s, width 1s;
+  transition: all 2s;
+}
+
+.foto1:hover {
+  height: auto;
+  width: 500px;
+}
+
+.foto2 {
+  transition: height 2s;
+  transition: height 2s, width 1s;
+  transition: all 2s;
+}
+
+.foto2:hover {
+  height: auto;
+  width: 500px;
+}
+
+.foto3 {
+  transition: height 2s;
+  transition: height 2s, width 1s;
+  transition: all 2s;
+}
+
+.foto3:hover {
+  height: auto;
+  width: 500px;
+}
+
+.foto4 {
+  transition: height 2s;
+  transition: height 2s, width 1s;
+  transition: all 2s;
+}
+
+.foto4:hover {
+  height: auto;
+  width: 500px;
+}
+
+.foto5 {
+  transition: height 2s;
+  transition: height 2s, width 1s;
+  transition: all 2s;
+}
+
+.foto5:hover {
+  height: auto;
+  width: 500px;
+}
+
+.foto6 {
+  transition: height 2s;
+  transition: height 2s, width 1s;
+  transition: all 2s;
+}
+
+.foto6:hover {
+  height: auto;
+  width: 500px;
+}
+
+/*tienda*/
+.carousel-inner {
+  max-height: 30rem;
+}
+
+/*Modificaciones Index*/
+* {
+  margin: 200;
+  padding: 200;
+}
+
+.nombrelogo {
+  width: 35%;
+  margin-top: -3rem;
+}
+
+.navbar-nav {
+  font-size: 25px;
+}
+.navbar-nav .nav-link {
+  color: aliceblue;
+}
+
+/* .flexind{
+    display: flex;
+    justify-content: space-between;
+   margin-right: 22rem;
+}*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, fr);
+  grid-template-areas: "text img";
+}
+
+.textind {
+  grid-area: text;
+}
+
+.img {
+  width: 30%;
+}
+
+.textind {
+  margin-left: 20rem;
+  margin-top: 3rem;
+  padding-top: 3rem;
+}
+
+.arcatind {
+  font-size: 70px;
+}
+
+.arcat {
+  text-align: left;
+}
+
+ul {
+  color: rgb(145, 49, 49);
+}
+
+body {
+  background-color: bisque;
+  background-image: url("../media/fondoar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+li {
+  display: inline-block;
+  width: 24%;
+  position: relative;
+  font-size: 18px;
+}
+
+.cambioTexto {
+  text-decoration: underline;
+  -webkit-text-decoration-style: double;
+          text-decoration-style: double;
+  text-transform: lowercase;
+}
+
+h1 {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 3rem;
+}
+
+h2 {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+ul {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 400px;
+  background-position: center;
+  padding-top: 3rem;
+}
+
+.face {
+  width: 2.5%;
+}
+
+.insta {
+  width: 2.8%;
+}
+
+footer {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+.copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 40px;
+}
+
+.copyright p {
+  margin-top: 20px;
+  color: #7a7a7a;
+}
+
+.copyright hr {
+  border: none;
+  height: 1px;
+  background-color: #7a7a7a;
+}
+
+/*Modificaciones Nosotros*/
+/*.flexnos {
+    display: flex;
+}*/
+.video {
+  width: 50%;
+}
+
+.arcatn {
+  text-align: left;
+}
+
+.gridnos {
+  display: grid;
+  grid-template-columns: repeat(2, fr);
+  grid-template-areas: "gridnos textn";
+}
+
+.nosotit {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  background-color: coral;
+  color: aliceblue;
+}
+
+.textn {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+  font-size: medium;
+}
+
+/*Modificaciones Tienda*/
+/*.gridtiend{
+    display: grid;
+    grid-template-columns: repeat(2,fr);
+   grid-template-areas:"text img";
+}*/
+.arcatt {
+  text-align: left;
+}
+
+.tiend1 {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  background-color: coral;
+  color: aliceblue;
+}
+
+.texttienda {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  text-align: center;
+}
+
+/*Modificaciones Galeria*/
+/*.gridgale{
+    display: grid;
+    grid-template-columns: repeat(0,fr);
+   grid-template-areas:"text img";
+}*/
+.arcatg {
+  text-align: left;
+}
+
+.galetext {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  background-color: coral;
+  color: aliceblue;
+}
+
+.gallery img {
+  background: #fff;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+#gallery-popup .modal-img {
+  width: 100%;
+}
+
+/*Modificaciones Contacto*/
+.gridcont {
+  display: grid;
+  grid-template-columns: repeat(2, fr);
+  grid-template-areas: "text img";
+}
+
+.arcatc {
+  text-align: left;
+}
+
+.flexcont {
+  display: flex;
+}
+
+.contacto {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  background-color: coral;
+  color: aliceblue;
+}
+
+/*keyframes*/
+@-webkit-keyframes triangulos {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  30% {
+    transform: translateX(30px);
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    bottom: 100vh;
+    opacity: 0;
+  }
+}
+@keyframes triangulos {
+  0% {
+    bottom: 0;
+    opacity: 0;
+  }
+  30% {
+    transform: translateX(30px);
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    bottom: 100vh;
+    opacity: 0;
+  }
+}
+@-webkit-keyframes movimiento {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes movimiento {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/*Media Queries*/
+@media screen and (max-width: 768px) {
+  /*Index*/
+  .nombrelogo {
+    width: 200px;
+    margin-top: -3rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    justify-content: center;
+    grid-template-areas: "text" "img";
+  }
+  .textind {
+    margin-top: -7rem;
+  }
+  .tiendt {
+    text-align: center;
+  }
+  .img {
+    width: 100%;
+  }
+  .face {
+    width: 10%;
+  }
+  .insta {
+    width: 10%;
+  }
+  .arcatind {
+    justify-content: center;
+  }
+  /*footer*/
+  .copyright {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+  }
+  .copyright p {
+    margin-top: 20px;
+    color: #7a7a7a;
+  }
+  .copyright hr {
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+  }
+  /*Nosotros*/
+  .lognosot {
+    width: 100%;
+  }
+  .gridnos {
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    grid-template-areas: "gridnos ";
+  }
+  .textn {
+    margin-top: -4rem;
+  }
+  .video {
+    width: 100%;
+    justify-content: center;
+  }
+  /*Tienda*/
+  .gridtiend {
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    grid-template-areas: "text" "img";
+  }
+  /*Galeria*/
+  .gridgale {
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    grid-template-areas: "text" "img";
+  }
+  /*Contacto*/
+  .gridcont {
+    display: grid;
+    grid-template-columns: repeat(1, fr);
+    grid-template-areas: "text" "img";
+  }
+  .gridcont {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=estilos.css.map */

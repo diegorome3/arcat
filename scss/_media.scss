@@ -1,0 +1,117 @@
+/*Media Queries*/
+
+@media screen and (max-width: 768px) {
+    
+    /*Index*/
+
+    .nombrelogo{
+        width: 200px;
+        margin-top: -3rem;
+    }
+
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+        justify-content: center;
+       grid-template-areas:"text" "img";
+    }
+
+    .textind{
+        margin-top: -7rem;
+    }
+
+    .tiendt{
+        
+        text-align: center;
+    }
+
+    .img{
+        width: 100%;
+    }
+
+    .face{
+        width: 10%;
+    }
+
+    .insta{
+        width: 10%;
+    }
+
+    .arcatind{
+        justify-content: center;
+    }
+
+
+    /*footer*/
+    .copyright{
+        max-width: 1200px;
+        margin: auto;
+        text-align: center;
+        padding: 0px 40px;
+    }
+    
+    .copyright p{
+        margin-top: 20px;
+        color: #7a7a7a;
+    }
+    
+    .copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+    }
+
+    /*Nosotros*/
+
+    .lognosot{
+        width:100% ;
+    }
+
+    .gridnos{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+       grid-template-areas:"gridnos ";
+    }
+
+    .textn{
+        margin-top:-4rem ;
+    }
+
+    .video{
+        width: 100%;
+        justify-content: center;
+    }
+
+
+    /*Tienda*/
+
+    .gridtiend{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+       grid-template-areas:"text" "img";
+    }
+
+  
+    /*Galeria*/
+
+    .gridgale{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+       grid-template-areas:"text" "img";
+    }
+
+    /*Contacto*/
+
+    .gridcont{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+       grid-template-areas:"text" "img";
+    }
+
+    .gridcont{
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {}
