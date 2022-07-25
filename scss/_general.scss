@@ -84,25 +84,27 @@ li {
 
 } 
 
-h1 { 
-    
+@mixin hstyle {
     font-family: 'Kdam Thmor Pro', sans-serif;
     text-align: center;
+}
+
+h1 { 
+    @include hstyle;
     margin-top: 3rem;
     padding-top: 3rem;
 
 }
 
-h2 {font-family: 'Kdam Thmor Pro', sans-serif;
-    text-align: center;
+h2 {
+    @include hstyle;
     margin-top: 2rem;
 
 }
 
 
 ul {
-    font-family:'Kdam Thmor Pro', sans-serif;
-    text-align: center;
+    @include hstyle;
 
 }
 
