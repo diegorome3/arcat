@@ -176,7 +176,15 @@
 }
 
 .arcatind {
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0 rgb(0, 0, 0);
   font-size: 70px;
+}
+
+.tiendt {
+  font-size: 35px;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0 rgb(0, 0, 0);
 }
 
 .arcat {
@@ -258,13 +266,13 @@ footer {
 
 .copyright p {
   margin-top: 20px;
-  color: #7a7a7a;
+  color: #7d7d7d;
 }
 
 .copyright hr {
   border: none;
   height: 1px;
-  background-color: #7a7a7a;
+  background-color: #a4a4a4;
 }
 
 /*Modificaciones Nosotros*/
@@ -273,6 +281,12 @@ footer {
 }*/
 .video {
   width: 50%;
+}
+
+.quees {
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0 rgb(0, 0, 0);
+  font-size: 70px;
 }
 
 .arcatn {
@@ -301,12 +315,20 @@ footer {
   font-size: medium;
 }
 
+.tnosotros {
+  font-size: 25px;
+}
+
 /*Modificaciones Tienda*/
 /*.gridtiend{
     display: grid;
     grid-template-columns: repeat(2,fr);
    grid-template-areas:"text img";
 }*/
+.card-title {
+  font-size: 20px;
+}
+
 .arcatt {
   text-align: left;
 }
@@ -357,6 +379,13 @@ footer {
 }
 
 /*Modificaciones Contacto*/
+.consulta {
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 0 rgb(0, 0, 0);
+  font-size: 70px;
+}
+
 .gridcont {
   display: grid;
   grid-template-columns: repeat(2, fr);
@@ -521,7 +550,7 @@ footer {
   }
 }
 body {
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0.478);
 }
 
 h2 {
