@@ -150,11 +150,6 @@
   color: aliceblue;
 }
 
-/* .flexind{
-    display: flex;
-    justify-content: space-between;
-   margin-right: 22rem;
-}*/
 .grid {
   display: grid;
   grid-template-columns: repeat(2, fr);
@@ -242,7 +237,7 @@ img {
 }
 
 .face {
-  width: 2.5%;
+  width: 2.6%;
 }
 
 .insta {
@@ -254,7 +249,7 @@ footer {
   text-align: center;
   align-items: center;
   justify-content: center;
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 
 .copyright {
@@ -266,21 +261,21 @@ footer {
 
 .copyright p {
   margin-top: 20px;
-  color: #7d7d7d;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 rgb(0, 0, 0);
 }
 
 .copyright hr {
   border: none;
   height: 1px;
-  background-color: #a4a4a4;
+  background-color: #ffffff;
 }
 
 /*Modificaciones Nosotros*/
-/*.flexnos {
-    display: flex;
-}*/
 .video {
   width: 50%;
+  background-color: rgba(0, 0, 0, 0.188);
 }
 
 .quees {
@@ -320,11 +315,6 @@ footer {
 }
 
 /*Modificaciones Tienda*/
-/*.gridtiend{
-    display: grid;
-    grid-template-columns: repeat(2,fr);
-   grid-template-areas:"text img";
-}*/
 .card-title {
   font-size: 20px;
 }
@@ -348,11 +338,6 @@ footer {
 }
 
 /*Modificaciones Galeria*/
-/*.gridgale{
-    display: grid;
-    grid-template-columns: repeat(0,fr);
-   grid-template-areas:"text img";
-}*/
 .arcatg {
   text-align: left;
 }
@@ -383,7 +368,7 @@ footer {
   color: #fff;
   text-transform: uppercase;
   text-shadow: 3px 3px 0 rgb(0, 0, 0);
-  font-size: 70px;
+  font-size: 40px;
 }
 
 .gridcont {
@@ -504,16 +489,17 @@ footer {
   }
   .copyright p {
     margin-top: 20px;
-    color: #7a7a7a;
+    color: #ffffff;
   }
   .copyright hr {
     border: none;
     height: 1px;
-    background-color: #7a7a7a;
+    background-color: #ffffff;
   }
   /*Nosotros*/
   .lognosot {
     width: 100%;
+    margin-bottom: 5rem;
   }
   .gridnos {
     display: grid;
@@ -540,6 +526,9 @@ footer {
     grid-template-areas: "text" "img";
   }
   /*Contacto*/
+  .consulta {
+    text-align: center;
+  }
   .gridcont {
     display: grid;
     grid-template-columns: repeat(1, fr);
